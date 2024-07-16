@@ -46,6 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.vsconfig
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -70,3 +71,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Paid Aessets
+/[Aa]ssets/[Pp]lugins/[Pp]aidPlugins
+/[Aa]ssets/[Pp]lugins/[Pp]aidPlugins.meta
+/[Aa]ssets/[Pp]aidAssets
+/[Aa]ssets/[Pp]aidAssets.meta
+
+# Game Data
+/[Aa]ssets/[Ss]treamingAssets/Saved.meta
+/[Aa]ssets/[Ss]treamingAssets/Saved/*
+
+# Test
+/[Aa]ssets/[Ss]cripts/[Tt]est
+/[Aa]ssets/[Ss]cripts/[Tt]est.meta
