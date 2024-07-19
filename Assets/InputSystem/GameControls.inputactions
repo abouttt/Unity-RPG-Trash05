@@ -1,6 +1,55 @@
 {
     "name": "GameControls",
-    "maps": [],
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6d4e3907-b472-48ce-88bb-015fb69b2d82",
+            "actions": [
+                {
+                    "name": "Pop",
+                    "type": "Button",
+                    "id": "c83bb731-662c-46c5-a10d-86fd553ec907",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Push",
+                    "type": "Button",
+                    "id": "b414f622-9da9-4b38-9b5d-ac919488a095",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e32f125a-62b4-4480-98ec-2f6d6545e52d",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard/Mouse",
+                    "action": "Pop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e93f4159-1efa-4613-8570-b3ce0dfec737",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard/Mouse",
+                    "action": "Push",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
     "controlSchemes": [
         {
             "name": "Keyboard/Mouse",
