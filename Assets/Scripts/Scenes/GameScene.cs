@@ -5,6 +5,8 @@ public class GameScene : BaseScene
     protected override void Init()
     {
         base.Init();
+
+        InstantiatePackage("GameUIPackage.prefab");
     }
 
     private void Start()

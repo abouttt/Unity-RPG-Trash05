@@ -223,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 2855880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 5}
+  m_LocalPosition: {x: 0, y: 9, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -701,7 +701,7 @@ MonoBehaviour:
   _isDestroyOnLoad: 1
   _runSpeed: 3
   _sprintSpeed: 5
-  _landSpeed: 1.5
+  _landingSpeed: 0
   _lockOnRotationSpeed: 5
 --- !u!143 &817917815
 CharacterController:
@@ -835,7 +835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1592220090849ca4d83bbe28582c96c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ViewRadius>k__BackingField: 30
+  <ViewRadius>k__BackingField: 25
   <MinViewAngle>k__BackingField: -40
   <MaxViewAngle>k__BackingField: 40
   <TargetLayers>k__BackingField:
@@ -1094,7 +1094,7 @@ Transform:
   m_GameObject: {fileID: 1782581287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

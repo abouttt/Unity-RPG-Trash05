@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class Player : SingletonBehaviour<Player>
 {
+    public LockOn LockOn => _lockOn;
+
     [SerializeField]
     private float _runSpeed;
 

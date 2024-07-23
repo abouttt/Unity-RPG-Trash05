@@ -25,4 +25,11 @@ public abstract class BaseScene : MonoBehaviour
             ResourceManager.Instance.InstantiateAsync("EventSystem.prefab");
         }
     }
+
+    protected void InstantiatePackage(string packageName)
+    {
+        var package = ResourceManager.Instance.Instantiate(packageName);
+        package.transform.DetachChildren();
+        Destroy(package);
+    }
 }
