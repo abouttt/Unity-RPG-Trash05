@@ -2,6 +2,7 @@ using UnityEngine;
 
 public abstract class SingletonBehaviour<T> : MonoBehaviour where T : MonoBehaviour
 {
+    [SerializeField]
     protected bool _isDestroyOnLoad = false;
 
     private static T s_instance;
