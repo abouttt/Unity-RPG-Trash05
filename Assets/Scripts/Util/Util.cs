@@ -74,4 +74,19 @@ public static class Util
 
         return result;
     }
+
+    public static float ClampAngle(float lfAngle, float lfMin, float lfMax)
+    {
+        if (lfAngle > 180f)
+        {
+            return lfAngle - 360f;
+        }
+
+        if (lfAngle < -180f)
+        {
+            return lfAngle + 360f;
+        }
+
+        return Mathf.Clamp(lfAngle, lfMin, lfMax);
+    }
 }
